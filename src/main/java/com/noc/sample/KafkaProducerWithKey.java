@@ -10,7 +10,9 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+/**
+ * 
+ */
 public class KafkaProducerWithKey {
 
 	private static Logger logger = LoggerFactory.getLogger(KafkaProducerWithKey.class);
